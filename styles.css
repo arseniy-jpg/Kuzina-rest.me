@@ -103,12 +103,20 @@ section {
 }
 
 .special {
-  background: #8b0000;
-  color: white;
-  padding: 15px;
-  border-radius: 8px;
-  margin: 10px 0;
+  background: #c49a6c;        
+  color: #3e2c1c;          
+  padding: 18px;
+  border-radius: 12px;
+  margin: 15px 0;
   text-align: center;
+  font-weight: 600;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.special:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.25);
 }
 
 iframe {
@@ -132,4 +140,5 @@ section {
   max-width: 900px;
   margin: 60px auto;
   padding: 30px 25px;
+
 }
