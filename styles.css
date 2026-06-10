@@ -11,18 +11,18 @@ body {
 
 .hero {
   position: relative;
-  background: url('images/background.jpg') center/cover no-repeat; /* <-- твое фото */
+  background: url('images/background.jpg') center/cover no-repeat; 
   color: white;
   text-align: center;
   padding: 120px 20px;
-  border-bottom: 4px solid #2b1a0a; /* лёгкая граница между шапкой и телом сайта */
+  border-bottom: 4px solid #2b1a0a; 
 }
 
 .hero .overlay {
   position: absolute;
   top: 0; left: 0;
   width: 100%; height: 100%;
-  background: rgba(0, 0, 0, 0.2); /* ← регулирует прозрачность */
+  background: rgba(0, 0, 0, 0.2); 
   z-index: 0;
 }
 
@@ -142,9 +142,9 @@ footer {
 }
 section {
   background-color: rgba(43, 26, 10, 0.97);
-  color: #f5f5f5; /* светлый текст */
-  border-radius: 15px; /* скругленные углы */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6); /* мягкая тень */
+  color: #f5f5f5; 
+  border-radius: 15px; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6); 
   max-width: 900px;
   margin: 60px auto;
   padding: 30px 25px;
