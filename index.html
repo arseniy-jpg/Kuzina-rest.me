@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Restaurant Example</title>
+  <title>Kužina Restaurant</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -17,25 +17,29 @@
       <a href="#specials" data-key="specials">Specials</a>
       <a href="#contact" data-key="contact">Contact</a>
     </nav>
-    
   </header>
-  
-<div class="language-panel">
-  <button onclick="setLanguage('en')">ENG</button>
-  <button onclick="setLanguage('ru')">RU</button>
-  <button onclick="setLanguage('me')">ME</button>
-</div>
 
-<main>
+  <div class="language-panel">
+    <button onclick="setLanguage('en')">ENG</button>
+    <button onclick="setLanguage('ru')">RU</button>
+    <button onclick="setLanguage('me')">ME</button>
+  </div>
+
   <main>
+
     <section id="about">
       <h2 data-key="aboutTitle">About</h2>
-      <p data-key="aboutText">Welcome to our cozy restaurant located in the heart of the city. We serve fresh dishes, aromatic coffee, and warm hospitality.</p>
+      <p data-key="aboutText">
+        Welcome to our cozy restaurant located in the heart of the city.
+        We serve fresh dishes, aromatic coffee, and warm hospitality.
+      </p>
     </section>
 
     <section id="menu">
       <h2 data-key="menuTitle">Menu</h2>
+
       <div class="menu-list">
+
         <div class="menu-item">
           <img src="images/pasta.jpg" alt="Pasta">
           <div>
@@ -43,6 +47,7 @@
             <p data-key="price1">€7.50</p>
           </div>
         </div>
+
         <div class="menu-item">
           <img src="images/salad.jpg" alt="Salad">
           <div>
@@ -50,40 +55,62 @@
             <p data-key="price2">€5.90</p>
           </div>
         </div>
+
       </div>
     </section>
 
     <section id="specials">
       <h2 data-key="specialsTitle">Special Offers</h2>
-      <div class="special" data-key="special1">🎉 Every Tuesday - 20% off everything!</div>
-      <div class="special" data-key="special2">☕ Free coffee with any dessert!</div>
+
+      <div class="special" data-key="special1">
+        🎉 Every Tuesday - 20% off everything!
+      </div>
+
+      <div class="special" data-key="special2">
+        ☕ Free coffee with any dessert!
+      </div>
     </section>
 
-<section id="contact">
-  <h2 data-key="contactTitle">Contact</h2>
-  <p data-key="address">📍 Address: 20. Novembra, Budva, Montenegro</p>
-  <p data-key="phone">📞 Phone: +38268666693</p>
-  <p data-key="hours">🕒 Open: 8:00 – 23:30</p>
- <a href="tel:+38268666693" class="call-button" data-key="callNow">
-  📞 Call Now
-</a>
+    <section id="contact">
+      <h2 data-key="contactTitle">Contact</h2>
 
-  <iframe 
-    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11805.507173914732!2d18.8436351!3d42.2918249!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134dd37dec2a37eb%3A0x2c7d757034717c13!2zS3XFvmluYQ!5e0!3m2!1sen!2s!4v1761087100817!5m2!1sen!2s" 
-    width="100%" 
-    height="350" 
-    style="border:0; border-radius: 10px;" 
-    allowfullscreen="" 
-    loading="lazy" 
-    referrerpolicy="no-referrer-when-downgrade">
-  </iframe>
-</section>
+      <p data-key="address">
+        📍 Address: 20. Novembra, Budva, Montenegro
+      </p>
 
+      <p data-key="phone">
+        📞 Phone: +382 68 666 693
+      </p>
+
+      <p data-key="hours">
+        🕒 Open: 8:00 – 23:30
+      </p>
+
+      <a href="tel:+38268666693"
+         class="call-button"
+         data-key="callNow">
+         📞 Call Now
+      </a>
+
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11805.507173914732!2d18.8436351!3d42.2918249!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134dd37dec2a37eb%3A0x2c7d757034717c13!2zS3XFvmluYQ!5e0!3m2!1sen!2s!4v1761087100817!5m2!1sen!2s"
+        width="100%"
+        height="350"
+        style="border:0; border-radius:10px;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+
+    </section>
+
+  </main>
 
   <footer>
-    <p>© 2025 Restaurant “Kužina”</p>
+    <p>© 2025 Restaurant Kužina</p>
   </footer>
 
   <script src="script.js"></script>
+
 </body>
 </html>
