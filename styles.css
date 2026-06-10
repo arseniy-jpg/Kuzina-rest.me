@@ -167,3 +167,18 @@ section {
   transform: scale(1.05);
   background: #d8b28a;
 }
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+
+  display: inline-block;
+
+  background: rgba(43, 26, 10, 0.75);
+
+  padding: 25px 40px;
+
+  border-radius: 20px;
+
+  backdrop-filter: blur(3px);
+}
