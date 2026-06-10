@@ -4,9 +4,10 @@ html {
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background-color: #000; /* черный фон для страницы */
-  color: #eee; /* чуть светлее текст, чтобы читался на черном */
-
+  background: url('images/fon.jpg') center center fixed;
+  background-size: cover;
+  color: #eee;
+}
 }
 
 .hero {
