@@ -3,13 +3,21 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Kužina Restaurant</title>
+  <title>Restaurant Example</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
   <header class="hero">
     <div class="overlay"></div>
+    <h1 id="title">Restaurant “Kužina”</h1>
+    <p class="subtitle" data-key="subtitle">Fine Dining • Coffee • Atmosphere</p>
+
+    <div class="lang-switch">
+      <button onclick="setLanguage('en')">EN</button>
+      <button onclick="setLanguage('ru')">RU</button>
+      <button onclick="setLanguage('me')">ME</button>
+    </div>
 
     <nav>
       <a href="#about" data-key="about">About</a>
@@ -18,12 +26,6 @@
       <a href="#contact" data-key="contact">Contact</a>
     </nav>
   </header>
-
-  <div class="language-panel">
-    <button onclick="setLanguage('en')">ENG</button>
-    <button onclick="setLanguage('ru')">RU</button>
-    <button onclick="setLanguage('me')">ME</button>
-  </div>
 
   <main>
 
@@ -39,7 +41,6 @@
       <h2 data-key="menuTitle">Menu</h2>
 
       <div class="menu-list">
-
         <div class="menu-item">
           <img src="images/pasta.jpg" alt="Pasta">
           <div>
@@ -55,7 +56,6 @@
             <p data-key="price2">€5.90</p>
           </div>
         </div>
-
       </div>
     </section>
 
@@ -79,17 +79,15 @@
       </p>
 
       <p data-key="phone">
-        📞 Phone: +382 68 666 693
+        📞 Phone: +38268666693
       </p>
 
       <p data-key="hours">
         🕒 Open: 8:00 – 23:30
       </p>
 
-      <a href="tel:+38268666693"
-         class="call-button"
-         data-key="callNow">
-         📞 Call Now
+      <a href="tel:+38268666693" class="call-button" data-key="callNow">
+        📞 Call Now
       </a>
 
       <iframe
@@ -107,10 +105,9 @@
   </main>
 
   <footer>
-    <p>© 2025 Restaurant Kužina</p>
+    <p>© 2025 Restaurant “Kužina”</p>
   </footer>
 
   <script src="script.js"></script>
-
 </body>
 </html>
