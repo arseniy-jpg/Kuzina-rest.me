@@ -6,6 +6,7 @@ const translations = {
     menuTitle: "Menu", dish1: "Carbonara Pasta", dish2: "Caesar Salad",
     price1: "€7.50", price2: "€5.90",
     specialsTitle: "Special Offers", special1: "🎉 Every Tuesday - 20% off everything!", special2: "☕ Free coffee with any dessert!",
+    callNow: "📞 Call Now",
     contactTitle: "Contact", address: "📍 Address: Example Street 5, Podgorica", phone: "📞 Phone: +382 67 123 456", hours: "🕒 Open: 10:00 – 23:00"
   },
   ru: {
@@ -15,6 +16,7 @@ const translations = {
     menuTitle: "Меню", dish1: "Паста Карбонара", dish2: "Салат Цезарь",
     price1: "€7.50", price2: "€5.90",
     specialsTitle: "Акции", special1: "🎉 Каждый вторник — скидка 20% на всё меню!", special2: "☕ Кофе в подарок при заказе десерта!",
+    callNow: "📞 Позвонить",
     contactTitle: "Контакты", address: "📍 Адрес: ул. Примерная 5, Подгорица", phone: "📞 Телефон: +382 67 123 456", hours: "🕒 Ежедневно 10:00 – 23:00"
   },
   me: {
@@ -24,6 +26,7 @@ const translations = {
     menuTitle: "Meni", dish1: "Carbonara pasta", dish2: "Cezar salata",
     price1: "€7.50", price2: "€5.90",
     specialsTitle: "Akcije", special1: "🎉 Svakog utorka - 20% popusta na sve!", special2: "☕ Besplatna kafa uz svaki desert!",
+    callNow: "📞 Pozovi",
     contactTitle: "Kontakt", address: "📍 Adresa: Ulica Primjerna 5, Podgorica", phone: "📞 Telefon: +382 67 123 456", hours: "🕒 Otvoreno: 10:00 – 23:00"
   }
 };
