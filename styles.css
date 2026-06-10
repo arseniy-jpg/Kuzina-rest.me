@@ -182,3 +182,42 @@ section {
 
   backdrop-filter: blur(3px);
 }
+
+.contact-buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 20px 0;
+}
+
+.whatsapp-button,
+.viber-button,
+.call-button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.call-button {
+  background: #c49a6c;
+  color: #2b1a0a;
+}
+
+.whatsapp-button {
+  background: #25D366;
+  color: white;
+}
+
+.viber-button {
+  background: #7360F2;
+  color: white;
+}
+
+.call-button:hover,
+.whatsapp-button:hover,
+.viber-button:hover {
+  transform: scale(1.05);
+}
