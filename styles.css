@@ -142,3 +142,20 @@ section {
   padding: 30px 25px;
 
 }
+
+.call-button {
+  display: inline-block;
+  background: #c49a6c;
+  color: #2b1a0a;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-weight: bold;
+  margin: 15px 0;
+  transition: all 0.3s ease;
+}
+
+.call-button:hover {
+  transform: scale(1.05);
+  background: #d8b28a;
+}
