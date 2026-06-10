@@ -47,20 +47,27 @@ nav a:hover {
   color: #ffcc00;
 }
 
+.lang-switch {
+  position: relative;
+  z-index: 1;
+  margin-top: 25px;
+}
+
 .lang-switch button {
-  margin: 0 5px;
-  padding: 5px 12px;
+  margin: 0 6px;
+  padding: 8px 18px;
   border: none;
-  background: #ffcc00;
-  color: #333;
+  background: #c49a6c;
+  color: #2b1a0a;
   font-weight: bold;
-  border-radius: 6px;
+  border-radius: 20px;
   cursor: pointer;
-  transition: transform 0.2s;
+  transition: all 0.3s ease;
 }
 
 .lang-switch button:hover {
-  transform: scale(1.05);
+  transform: translateY(-2px);
+  background: #d8b28a;
 }
 
 section {
