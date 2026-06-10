@@ -8,7 +8,6 @@ body {
   background-size: cover;
   color: #eee;
 }
-}
 
 .hero {
   position: relative;
@@ -134,7 +133,7 @@ footer {
   padding: 20px;
 }
 section {
-  background-color: #2b1a0a; /* тёмно-коричневый */
+  background-color: rgba(43, 26, 10, 0.97);
   color: #f5f5f5; /* светлый текст */
   border-radius: 15px; /* скругленные углы */
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6); /* мягкая тень */
