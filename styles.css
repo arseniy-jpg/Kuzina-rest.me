@@ -51,6 +51,10 @@ nav a:hover {
   position: relative;
   z-index: 1;
   margin-top: 25px;
+  display: inline-block;
+  background: rgba(43, 26, 10, 0.85);
+  padding: 12px 20px;
+  border-radius: 15px; 
 }
 
 .lang-switch button {
