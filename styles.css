@@ -58,7 +58,6 @@ nav a:hover {
 }
 
 .lang-switch button {
-  margin: 0 6px;
   padding: 8px 18px;
   border: none;
   background: #c49a6c;
@@ -70,10 +69,8 @@ nav a:hover {
 }
 
 .lang-switch button:hover {
-  transform: translateY(-2px);
-  background: #d8b28a;
+  transform: scale(1.05);
 }
-
 section {
   max-width: 900px;
   margin: 50px auto;
